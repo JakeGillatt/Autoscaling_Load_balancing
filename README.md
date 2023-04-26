@@ -2,7 +2,7 @@
 #
 # What are Load balancers?
 
-Load balancers are used to prevent an overload in traffic reaching an EC2 Instance. The load balancer can also re-direct traffic to other instances
+a load balancer is a service that helps distribute incoming network traffic across multiple servers or instances. The purpose of a load balancer is to ensure that all the instances in a group receive roughly equal amounts of traffic and prevent any single instance from becoming overwhelmed and causing a bottleneck.
 
 #
 # What is Auto Scaling?
