@@ -13,3 +13,21 @@ One of the purposes of Auto scaling is to terminate broken instances and re-load
 # Auto Scaling Diagram:
 
 ![autoscale-diagram](https://user-images.githubusercontent.com/129315605/234577796-89096561-7401-4b83-80b5-d324c37a610f.png)
+
+#
+# Launching two instances with Auto scaling and Load balancing
+
+1. On AWS in the EC2 dashboard, select 'Launch templates' then 'Create launch template'
+- Name the template
+- Tick provide guidance
+- Select the AMI
+- Select the Key-Pair
+- Select the security group
+- Edit the user data and add the following:
+```
+HAS NOT BEEN VERIFIED YET
+```
+- Create the template
+2. On the EC2 dashboard select 'Auto scaling groups' and 'Create auto scaling group'
+- Name the group
+- 
