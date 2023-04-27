@@ -30,4 +30,16 @@ HAS NOT BEEN VERIFIED YET
 - Create the template
 2. On the EC2 dashboard select 'Auto scaling groups' and 'Create auto scaling group'
 - Name the group
-- 
+- Leave the vpc as default or select a vpc if using one
+- Select the regions you reuire, e.g - 1a, 1,b ,1c
+- Select a new load balancer with HTTP/S
+- Select Internet facing
+- Create a target group
+- Tick Elastic load balancing
+- Health grace can be 300
+- Select Next
+- Set the desired, min and max instances you want
+- Tick target tracking monitering CPU load, 50%
+- Select Next two pages over
+- Add tags: Key=Name - 'Jake-tech221-asg-alb'
+- Select Create ASG
